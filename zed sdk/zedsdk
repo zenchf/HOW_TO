@@ -1,0 +1,11 @@
+https://www.stereolabs.com/developers/release
+https://www.stereolabs.com/docs/installation/linux
+
+INSTALL
+cd -nereye indirdiysen-
+sudo apt install zstd
+chmod +x ZED_SDK_Ubuntu22_cuda12.1_v4.1.0.zstd.run
+./ZED_SDK_Ubuntu22_cuda12.1_v4.1.0.zstd.run
+
+To install the ZED SDK without checking that CUDA is installed, add the skip_cuda option.
+./ZED_SDK_Ubuntu22_cuda12.1_v4.1.0.zstd.run -- silent skip_cuda

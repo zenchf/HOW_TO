@@ -1,0 +1,8 @@
+sudo apt install cmake  
+cmake --version  
+sudo apt install libopencv-dev python3-opencv   
+opencv_version
+cudacudnn
+opencv_version
+sudo apt install make git g++    
+git clone https://github.com/AlexeyAB/darknet

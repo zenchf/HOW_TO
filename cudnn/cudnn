@@ -1,0 +1,13 @@
+https://developer.nvidia.com/rdp/cudnn-archive
+
+INSTALL 
+cd -nereye indirdiysen-
+tar -xvf cudnn-linux-x86_64-8.9.7.29_cuda12-archive.tar.xz
+cd cudnn-linux-x86_64-8.9.7.29_cuda12-archive
+cd .. 
+mv cudnn-linux-x86_64-8.9.7.29_cuda12-archive cudnn
+ll /usr/local/cuda-12.1/
+sudo cp cudnn/include/cudnn*h /usr/local/cuda-12.1/include
+sudo cp -P cudnn/lib/libcudnn* /usr/local/cuda-12.1/lib64
+sudo chmod a+r /usr/local/cuda-12.1/include/cudnn*.h /usr/local/cuda-12.1/lib64/libcudnn*
+sudo apt update

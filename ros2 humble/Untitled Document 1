@@ -1,0 +1,12 @@
+sudo apt install python3-colcon-common-extensions
+
+# Replace ".bash" with your shell if you're not using bash
+# Possible values are: setup.bash, setup.sh, setup.zsh
+source /opt/ros/humble/setup.bash
+
+echo "source /opt/ros/humble/setup.bash" >> ~/.bashrc
+
+printenv | grep -i ROS ||kontrol ediyoruz.
+
+sudo apt update
+sudo apt install ~nros-humble-rqt*

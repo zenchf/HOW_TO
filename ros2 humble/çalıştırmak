@@ -1,0 +1,4 @@
+ros2 run <package_name> <executable_name>
+ros2 node info <node_name>
+pip install setuptools==57.3.0
+

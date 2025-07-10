@@ -1,0 +1,9 @@
+https://docs.anaconda.com/free/anaconda/install/linux/
+
+apt-get install libgl1-mesa-glx libegl1-mesa libxrandr2 libxrandr2 libxss1 libxcursor1 libxcomposite1 libasound2 libxi6 libxtst6
+
+curl -O https://repo.anaconda.com/archive/Anaconda3-<INSTALLER_VERSION>-Linux-x86_64.sh
+VEYA KENDİN ARŞİVDEN İNDİR 
+shasum -a 256 /PATH/TO/INSTALLER-FILENAME
+bash ~/Downloads/Anaconda3-<INSTALLER_VERSION>-Linux-x86_64.sh
+source ~/.bashrc

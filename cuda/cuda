@@ -1,0 +1,18 @@
+
+https://developer.nvidia.com/cuda-12-1-0-download-archive
+
+INSTALL
+wget https://developer.download.nvidia.com/compute/cuda/12.1.0/local_installers/cuda_12.1.0_530.30.02_linux.run
+
+recovery mode!!
+driver seçmiyoruz. Nvidia driverı "additional drivers"dan seçiyoruz.
+sudo sh cuda_12.1.0_530.30.02_linux.run
+
+# NVIDIA CUDA TOOLKIT
+export PATH=/usr/local/cuda-12.1/bin${PATH:+:${PATH}}
+export LD_LIBRARY_PATH=/usr/local/cuda-12.1/lib64${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}} 
+
+
+
+UNINSTALL
+sudo /usr/local/cuda-12.1/bin/cuda-uninstaller

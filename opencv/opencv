@@ -1,0 +1,16 @@
+https://www.geeksforgeeks.org/how-to-install-opencv-in-c-on-linux/
+
+INSTALL
+
+sudo apt install -y g++ cmake make git libgtk2.0-dev pkg-config
+-opencv sitesine git, sürümün github url'sini kopyala
+git clone url https://github.com/opencv/opencv.git
+mkdir -p build && cd build
+cmake ../opencv
+make -j20 (-j cpu sayısı anlamına gelir)
+sudo make install
+*******************
+location 
+/usr/local/include/opencv4
+
+
